@@ -27,17 +27,22 @@ img.resize(110, 110);
  img1.resize(100,100) 
 note1 = new Note (25, 50, speed);
 
+
 }
 
-// function mousePressed() {
-//     song.play();
-// }
+function mousePressed() {
+    song.play();
+}
 
 
 
 function draw(){
     background(25);
   
+  textSize(32);
+fill(0, 102, 153);
+  text('Click Here', 10, 30);
+  //Note(); 
   
 note1.move();
   note1.show();
@@ -46,7 +51,7 @@ note1.move();
   
 
 }
-    //pop();
+
  
     
     class Note{
