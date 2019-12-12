@@ -27,7 +27,6 @@ img.resize(110, 110);
  img1.resize(100,100) 
 note1 = new Note (25, 50, speed);
 
-
 }
 
 function mousePressed() {
@@ -38,10 +37,10 @@ function mousePressed() {
 
 function draw(){
     background(25);
+    textSize(32);
+    fill(1, 13, 147);
+      text('Click Here', 10, 30);
   
-  textSize(32);
-fill(0, 102, 153);
-  text('Click Here', 10, 30);
   //Note(); 
   
 note1.move();
@@ -52,6 +51,7 @@ note1.move();
 
 }
 
+   
  
     
     class Note{
